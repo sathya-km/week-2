@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Background with Button</title>
+    <style>
+        body {
+            /* Create a gradient background */
+            background: linear-gradient(135deg, rgba(255, 94, 94, 0.8), rgba(94, 94, 255, 0.8));
+            color: white; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .transparent-box {
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .button {
+            background-color: #cd484a; 
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s; 
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: #1e2f86; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="transparent-box">
+        <h1>Welcome to My Webpage</h1>
+        <p></p>
+        <button class="button">Explore More</button>
+    </div>
+
+</body>
+</html>

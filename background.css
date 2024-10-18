@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: background color for contrast */
+}
+
+.gradient-button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white; /* Text color */
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff6b6b, #f7d94b); /* Gradient background */
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.gradient-button:hover {
+    background: linear-gradient(45deg, #f7d94b, #ff6b6b); /* Reverse gradient on hover */
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pattern-section {
+    height: 100vh; 
+    width: auto;/* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('pexels-pixabay-459203.jpg'); /* Replace with your pattern image */
+    background-repeat: repeat; /* Repeat the background image */
+    background-size: auto; /* Maintain original size of the image */
+}
+
+h1 {
+    color: #333; /* Heading color */
+}
+
+

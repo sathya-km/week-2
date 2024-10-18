@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-list li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.custom-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.custom-list li {
+    position: relative; 
+    padding-left: 30px; 
+    margin-bottom: 10px; 
+}
+
+.custom-list li::before {
+    content: '★'; 
+    position: absolute; 
+    left: 0; 
+    color: gold; 
+    font-size: 20px; 
+}
